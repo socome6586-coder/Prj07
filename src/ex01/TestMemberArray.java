@@ -78,7 +78,7 @@ public class TestMemberArray {
 		Member mem = new Member(8, null, null);
 		
 		// ==주소 비교로는 찾을 수 없다
-		// -> data 비교로 변경 : equals() 재정의
+		// -> datprivate String비교로 변경 : equals() 재정의
 		boolean isFound = false;
 		for (int i = 0; i < mArr.length; i++) {
 			Member member = mArr[i];
